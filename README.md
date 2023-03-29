@@ -38,7 +38,7 @@ _Please contribute to this library by implementing the features below, suggestin
 
 ```typescript
 require("dotenv").config();
-import { createThrottler } from "./throttler";
+import { createThrottler } from "openai-throttler";
 
 let t = createThrottler({
   apiKey: process.env.OPENAI_API_KEY,
