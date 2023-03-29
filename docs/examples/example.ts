@@ -1,5 +1,5 @@
 require("dotenv").config();
-import { createThrottler } from "../../src/throttler";
+import { createThrottler } from "../../src/index";
 
 let t = createThrottler({
   apiKey: process.env.OPENAI_API_KEY,

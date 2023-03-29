@@ -1,5 +1,5 @@
 {
-  "include": ["src/**/*", "src/types/*", "types/types.d.ts"],
+  "include": ["src/**/*", "src/types/*", "src/types/types.d.ts"],
   "compilerOptions": {
     /* Visit https://aka.ms/tsconfig to read more about this file */
     /* Language and Environment */
